@@ -184,7 +184,7 @@ container {
   margin: 2% 0 0 0;
   padding-bottom: 1%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
 }
 .header nav {
@@ -192,6 +192,7 @@ container {
   align-items: center;
   justify-content: space-evenly;
   width: 40%;
+  flex-wrap: wrap-reverse;
 }
 .header h1 {
   margin-left: 0%;
